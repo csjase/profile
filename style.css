@@ -1,0 +1,70 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background: #bdf9e0;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #0586ff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #048998;
+}
+
+h2 {
+  color: #048998;
+  font-size: 18px;
+  font-weight: bolder;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #0586ff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.card-white {
+  background-color: rgb(255, 254, 238);
+  padding: 20px;
+  box-shadow: 50px -13px 20px rgba(109, 172, 231, 0.26);
+  border-radius: 8px;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  line-height: 2;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 0px;
+}
