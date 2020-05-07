@@ -60,11 +60,32 @@ h1 {
 
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding: 10px;
+  margin: 30px;
   line-height: 2;
 }
 
 .list-inline li {
   display: inline-block;
   padding: 0px 0px;
+}
+
+.btn {
+  background: rgb(250, 246, 196);
+  color: #0586ff;
+  border-radius: 8px;
+  padding: 20px 60px;
+  margin: 8px;
+  display: inline-block;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: black;
+  opacity: 100;
+}
+
+.avatar {
+  border-radius: 50%;
 }
